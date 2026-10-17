@@ -191,11 +191,9 @@ module.exports = class MoreTextStylesPlugin extends Plugin {
       );
     }
 
-    /* 设置页缩进与标题样式 */
+    /* 设置页子项缩进样式 */
     this.styleEl = document.createElement("style");
-    this.styleEl.textContent =
-      ".mts-sub-setting { margin-left: 1.6em; }" +
-      ".mts-settings-title { font-size: 1.25em; font-weight: 700; margin: 0 0 12px; }";
+    this.styleEl.textContent = ".mts-sub-setting { margin-left: 1.6em; }";
     document.head.appendChild(this.styleEl);
 
     this.registerCommands();
