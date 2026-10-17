@@ -50,18 +50,9 @@ Copy `main.js`, `manifest.json` to `<vault>/.obsidian/plugins/more-text-styles/`
 - 选择是否在移动端工具栏显示按钮（自动注入，Obsidian 重建工具栏后自动补回）；
 - 配置快捷键——内置合理默认值，也可在 Obsidian 原生快捷键页修改（设置页有跳转按钮，会自动筛选出本插件的命令）。
 
-### iPadOS / 中文输入法
-
-针对 iPadOS 外接键盘 + 中文输入法下 `Cmd+字母` 会把字母塞进正文的已知问题，插件会在命令执行前快照选区、执行后定时清除误插的孤立字符。
-
 ### 手动安装
 
 将 `main.js`、`manifest.json` 复制到 `<仓库>/.obsidian/plugins/more-text-styles/`，在 Obsidian 中启用即可。
-
-## License / 许可证
-
-MIT
-/`，在 Obsidian 中启用即可。
 
 ## License / 许可证
 
