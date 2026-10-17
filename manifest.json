@@ -1,0 +1,9 @@
+{
+  "id": "more-text-styles",
+  "name": "More Text Styles",
+  "version": "2.6.0",
+  "minAppVersion": "1.0.0",
+  "description": "Add underline, bigger/smaller font, center, and same-file heading/block links to the editor. Each feature can be enabled separately and shown in the mobile toolbar; hotkeys are configurable with sensible defaults.",
+  "author": "chi-xin-yan",
+  "isDesktopOnly": false
+}
