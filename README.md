@@ -24,7 +24,7 @@ Each feature can be:
 
 - enabled or disabled (disabled features have no button, no palette entry, and no hotkey);
 - shown as a button in the **mobile toolbar** (injected automatically and self-healing when Obsidian rebuilds the toolbar);
-- bound to a hotkey — the plugin ships sensible defaults, and you can change them in Obsidian's native hotspot settings (a shortcut on the settings page jumps there with this plugin's commands pre-filtered).
+- bound to a hotkey — the plugin ships sensible defaults, and you can change them in Obsidian's native hotkey settings (a shortcut on the settings page jumps there with this plugin's commands pre-filtered).
 
 ### iPadOS / Chinese IME note
 
