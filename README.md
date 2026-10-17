@@ -26,10 +26,6 @@ Each feature can be:
 - shown as a button in the **mobile toolbar** (injected automatically and self-healing when Obsidian rebuilds the toolbar);
 - bound to a hotkey — the plugin ships sensible defaults, and you can change them in Obsidian's native hotkey settings (a shortcut on the settings page jumps there with this plugin's commands pre-filtered).
 
-### iPadOS / Chinese IME note
-
-Hardware-keyboard hotkeys are guarded against the known Chinese-IME issue on iPadOS, where a `Cmd+Letter` press also inserts the letter into the note. The plugin snapshots the selection before the command and removes a stray inserted character afterwards.
-
 ### Manual installation
 
 Copy `main.js`, `manifest.json` to `<vault>/.obsidian/plugins/more-text-styles/` and enable the plugin in Obsidian.
@@ -61,6 +57,11 @@ Copy `main.js`, `manifest.json` to `<vault>/.obsidian/plugins/more-text-styles/`
 ### 手动安装
 
 将 `main.js`、`manifest.json` 复制到 `<仓库>/.obsidian/plugins/more-text-styles/`，在 Obsidian 中启用即可。
+
+## License / 许可证
+
+MIT
+/`，在 Obsidian 中启用即可。
 
 ## License / 许可证
 
